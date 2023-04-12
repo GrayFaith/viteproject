@@ -1,0 +1,3 @@
+#给爬虫看的
+user-agent: *
+disallow: /

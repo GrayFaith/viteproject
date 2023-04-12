@@ -1,0 +1,41 @@
+@import 'vxe-table/styles/variable.scss';
+/*font*/
+$vxe-font-size                                :14px;
+$vxe-font-size-medium                         :14px;
+$vxe-font-size-small                          :13px;
+$vxe-font-size-mini                           :12px;
+/*size*/
+$vxe-border-radius                            :5px;
+/*table*/
+$vxe-table-row-current-background-color       :#E6F7FF;
+$vxe-table-row-hover-current-background-color :#D7EFFB;
+/*form*/
+/*$vxe-form-item-min-height-default: 36px;
+$vxe-form-item-min-height-medium: 34px;
+$vxe-form-item-min-height-small: 32px;
+$vxe-form-item-min-height-mini: 30px;
+$vxe-form-background-color: rgba(255, 255, 255, 0);
+$vxe-form-validate-error-color: $vxe-table-validate-error-color;
+$vxe-form-validate-error-background-color: inherit;*/
+$vxe-form-item-min-height-default             :36px;
+$vxe-form-item-min-height-medium              :34px;
+$vxe-form-item-min-height-small               :32px;
+$vxe-form-item-min-height-mini                :30px;
+$vxe-form-background-color                    :rgba(255, 255, 255, 0);
+$vxe-form-validate-error-color                :$vxe-table-validate-error-color;
+$vxe-form-validate-error-background-color     :inherit;
+/*toolbar*/
+$vxe-toolbar-background-color                 :#FFFFFF;
+$vxe-toolbar-height-default                   :auto;
+$vxe-toolbar-height-medium                    :50px;
+$vxe-toolbar-height-small                     :48px;
+$vxe-toolbar-height-mini                      :46px;
+$vxe-toolbar-custom-active-background-color   :#D9DADB;
+$vxe-toolbar-panel-background-color           :#FFFFFF;
+/*modal*/
+/*$vxe-modal-header-background-color            :rgba(248, 248, 248, .4);
+$vxe-modal-body-background-color              :rgba(255, 255, 255, .65);
+$vxe-modal-border-color                       :rgba(255, 255, 255, 1);*/
+$vxe-modal-header-background-color            :rgba(248, 248, 248, .95);
+$vxe-modal-body-background-color              :rgba(255, 255, 255, .95);
+$vxe-modal-border-color                       :rgba(255, 255, 255, 1);

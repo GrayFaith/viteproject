@@ -1,0 +1,130 @@
+diff --git a/node_modules/vfonts/FiraCode.css b/node_modules/vfonts/FiraCode.css
+index 79fd9a1..8821cae 100644
+--- a/node_modules/vfonts/FiraCode.css
++++ b/node_modules/vfonts/FiraCode.css
+@@ -2,4 +2,5 @@
+   font-family: "v-mono";
+   font-weight: 400;
+   src: url("./assets/FiraCode-Regular.woff2");
++  font-display: swap;
+ }
+\ No newline at end of file
+diff --git a/node_modules/vfonts/FiraSans.css b/node_modules/vfonts/FiraSans.css
+index 1a11789..4522a90 100644
+--- a/node_modules/vfonts/FiraSans.css
++++ b/node_modules/vfonts/FiraSans.css
+@@ -2,10 +2,12 @@
+   font-family: "v-sans";
+   font-weight: 400;
+   src: url("./assets/FiraSans-Regular.woff2");
++  font-display: swap;
+ }
+ 
+ @font-face {
+   font-family: "v-sans";
+   font-weight: 500;
+   src: url("./assets/FiraSans-Medium.woff2");
++  font-display: swap;
+ }
+\ No newline at end of file
+diff --git a/node_modules/vfonts/IBMPlexMono.css b/node_modules/vfonts/IBMPlexMono.css
+index c88ef15..961bfd9 100644
+--- a/node_modules/vfonts/IBMPlexMono.css
++++ b/node_modules/vfonts/IBMPlexMono.css
+@@ -2,4 +2,5 @@
+   font-family: "v-mono";
+   font-weight: 400;
+   src: url("./assets/IBMPlexMono-Regular.ttf");
++  font-display: swap;
+ }
+\ No newline at end of file
+diff --git a/node_modules/vfonts/IBMPlexSans.css b/node_modules/vfonts/IBMPlexSans.css
+index 3850e13..29057b6 100644
+--- a/node_modules/vfonts/IBMPlexSans.css
++++ b/node_modules/vfonts/IBMPlexSans.css
+@@ -2,10 +2,12 @@
+   font-family: "v-sans";
+   font-weight: 400;
+   src: url("./assets/IBMPlexSans-Regular.ttf");
++  font-display: swap;
+ }
+ 
+ @font-face {
+   font-family: "v-sans";
+   font-weight: 500;
+   src: url("./assets/IBMPlexSans-Medium.ttf");
++  font-display: swap;
+ }
+\ No newline at end of file
+diff --git a/node_modules/vfonts/Inter.css b/node_modules/vfonts/Inter.css
+index 174dbf6..4c85f27 100644
+--- a/node_modules/vfonts/Inter.css
++++ b/node_modules/vfonts/Inter.css
+@@ -2,10 +2,12 @@
+   font-family: "v-sans";
+   font-weight: 400;
+   src: url("./assets/Inter-Regular.woff2");
++  font-display: swap;
+ }
+ 
+ @font-face {
+   font-family: "v-sans";
+   font-weight: 500;
+   src: url("./assets/Inter-Medium.woff2");
++  font-display: swap;
+ }
+\ No newline at end of file
+diff --git a/node_modules/vfonts/Lato.css b/node_modules/vfonts/Lato.css
+index b77ddb5..58f606b 100644
+--- a/node_modules/vfonts/Lato.css
++++ b/node_modules/vfonts/Lato.css
+@@ -2,10 +2,12 @@
+   font-family: "v-sans";
+   font-weight: 400;
+   src: url("./assets/LatoLatin-Regular.woff2");
++  font-display: swap;
+ }
+ 
+ @font-face {
+   font-family: "v-sans";
+   font-weight: 600;
+   src: url("./assets/LatoLatin-Semibold.woff2");
++  font-display: swap;
+ }
+\ No newline at end of file
+diff --git a/node_modules/vfonts/OpenSans.css b/node_modules/vfonts/OpenSans.css
+index e634aaf..b283205 100644
+--- a/node_modules/vfonts/OpenSans.css
++++ b/node_modules/vfonts/OpenSans.css
+@@ -2,10 +2,12 @@
+   font-family: "v-sans";
+   font-weight: 400;
+   src: url("./assets/OpenSans-Regular.ttf");
++  font-display: swap;
+ }
+ 
+ @font-face {
+   font-family: "v-sans";
+   font-weight: 600;
+   src: url("./assets/OpenSans-SemiBold.ttf");
++  font-display: swap;
+ }
+\ No newline at end of file
+diff --git a/node_modules/vfonts/Roboto.css b/node_modules/vfonts/Roboto.css
+index f2bbb7f..5cd1200 100644
+--- a/node_modules/vfonts/Roboto.css
++++ b/node_modules/vfonts/Roboto.css
+@@ -2,10 +2,12 @@
+   font-family: "v-sans";
+   font-weight: 400;
+   src: url("./assets/Roboto-Regular.ttf");
++  font-display: swap;
+ }
+ 
+ @font-face {
+   font-family: "v-sans";
+   font-weight: 500;
+   src: url("./assets/Roboto-Medium.ttf");
++  font-display: swap;
+ }
+\ No newline at end of file

@@ -1,0 +1,62 @@
+.ivu-upload-drag{
+	background    :#FFFFFF;
+	border        :1px dashed #DCDEE2;
+	border-radius :4px;
+	text-align    :center;
+	cursor        :pointer;
+	position      :relative;
+	overflow      :hidden;
+	transition    :border-color .2s ease;
+	height        :100%;
+}
+.ivu-menu-vertical .ivu-menu-item:hover,
+.ivu-menu-vertical .ivu-menu-submenu-title:hover{
+	background-color :rgba(240, 234, 219, 0.6);
+	background-clip  :padding-box;
+}
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item .ivu-menu-item-active:not(.ivu-menu-submenu){
+	color        :#2D8CF0;
+	border-right :2px solid #2D8CF0;
+	background   :rgba(247, 234, 223, 0.6);
+	z-index      :2;
+}
+/*Tabs*/
+.ivu-tabs{
+	box-sizing :border-box;
+	position   :relative;
+	overflow   :hidden;
+	color      :#515A6E;
+	zoom       :1;
+	height     :100%;
+	width      :100%;
+	margin     :0;
+	padding    :0;
+	border     :0;
+}
+.ivu-tabs-bar{
+	border-bottom :1px solid #DCDEE2;
+	margin-bottom :0;
+	/*border-bottom: 1px solid @border-color-base;
+	margin-bottom: 16px;*/
+}
+/*此样式用于修复view-ui-plus的TabPane组件高度计算BUG*/
+:deep(.ivu-tabs-content-animated){
+	display        :flex;
+	flex-direction :row;
+	will-change    :transform;
+	transition     :transform .3s ease-in-out;
+	position       :relative;
+	height         :calc(100% - 32px);
+	width          :100%;
+	margin         :0;
+	padding        :0;
+	border         :0;
+}
+.ivu-tabs-tabpane{
+	flex-shrink :0;
+	width       :100%;
+	transition  :opacity .3s;
+	overflow-y  :auto;
+	opacity     :1;
+	outline     :0;
+}

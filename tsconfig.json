@@ -1,0 +1,57 @@
+{
+	"include"         : [
+		"auto-imports.d.ts",
+		"src/**/*.*",
+		"src/**/*.vue"
+	],
+	"exclude"         : [
+		"node_modules",
+		"dist",
+		"**/*.cjs"
+	],
+	"compilerOptions" : {
+		"paths"                            : {
+			"@/*" : [
+				"src/*"
+			],
+			"#/*" : [
+				"types/*"
+			]
+		},
+		"types"                            : [
+			"vite/client",
+			"vxe-table/types/all",
+			"vue",
+			"node",
+			"jsdom"
+		],
+		"lib"                              : [
+			"DOM",
+			"ES2021"
+		],
+		"baseUrl"                          : "./",
+		"composite"                        : true,
+		"checkJs"                          : true,
+		"allowJs"                          : true,
+		"allowUnreachableCode"             : true,
+		"allowUnusedLabels"                : true,
+		"alwaysStrict"                     : true,
+		"charset"                          : "UTF-8",
+		"declaration"                      : true,
+		"declarationDir"                   : "types",
+		"diagnostics"                      : true,
+		"extendedDiagnostics"              : true,
+		"emitBOM"                          : false,
+		"target"                           : "es2022",
+		"module"                           : "es2022",
+		"moduleResolution"                 : "Node16",
+		"noImplicitAny"                    : true,
+		"outDir"                           : "./built/",
+		"sourceMap"                        : true,
+		"strict"                           : true,
+		"noImplicitReturns"                : true,
+		"esModuleInterop"                  : true,
+		"forceConsistentCasingInFileNames" : true,
+		"skipLibCheck"                     : true
+	}
+}

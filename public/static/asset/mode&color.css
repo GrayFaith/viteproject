@@ -1,0 +1,63 @@
+.primary{
+	color :#007BFF;
+}
+.secondary{
+	color :#6C757D;
+}
+.success{
+	color :#28A745;
+}
+.info{
+	color :#17A2B8;
+}
+.warning{
+	color :#FFC107;
+}
+.danger{
+	color :#DC3545;
+}
+.light{
+	color :#F8F9FA;
+}
+.dark{
+	color :#343A40;
+}
+.blue{
+	color :#007BFF;
+}
+.indigo{
+	color :#6610F2;
+}
+.purple{
+	color :#6F42C1;
+}
+.pink{
+	color :#E83E8C;
+}
+.red{
+	color :#DC3545;
+}
+.orange{
+	color :#FD7E14;
+}
+.yellow{
+	color :#FFC107;
+}
+.green{
+	color :#28A745;
+}
+.teal{
+	color :#20C997;
+}
+.cyan{
+	color :#17A2B8;
+}
+.white{
+	color :#FFFFFF;
+}
+.gray{
+	color :#6C757D;
+}
+.gray-dark{
+	color :#343A40;
+}
